@@ -147,7 +147,7 @@ def mapa(df):
     folium_static(map, width=740, height = 360)    
     return None
 
-#===============Função para plotar gráfico de barras no painel: Restaurantes================
+#==================Função para plotar gráfico de barras no painel: Países===================
 def rest_countries(df):
     df_aux = (df.loc[:, ['country', 'restaurant_id']]
                  .groupby(['country'])
@@ -164,7 +164,7 @@ def rest_countries(df):
                  )#.update_layout(plot_bgcolor='#f2f2f2')
     return fig
 
-#===============Função para plotar gráfico de barras no painel: Restaurantes================
+#==================Função para plotar gráfico de barras no painel: Países===================
 def cities_countries(df):
     df_aux = (df.loc[:, ['country', 'city']]
                  .groupby(['country'])
@@ -181,7 +181,7 @@ def cities_countries(df):
                  )
     return fig
 
-#===============Função para plotar gráfico de barras no painel: Restaurantes================
+#==================Função para plotar gráfico de barras no painel: Países===================
 def cuisines_countries(df):
     df_aux = (df.loc[:, ['country', 'cuisines']]
                  .groupby(['country'])
@@ -194,11 +194,11 @@ def cuisines_countries(df):
                  text = 'cuisines',
                  text_auto=".2f",
                  labels = {'country': 'Países', 'cuisines':'Tipos de Culinária'}, 
-                 title = 'Tipos de culinárias por país'
+                 title = 'Tipos de culinárias oferecidas por país'
                  )
     return fig
 
-#===============Função para plotar gráfico de barras no painel: Restaurantes================
+#==================Função para plotar gráfico de barras no painel: Países===================
 def votes_countries(df):
     df_aux = (df.loc[:, ['country', 'votes']]
                  .groupby(['country'])
@@ -215,7 +215,7 @@ def votes_countries(df):
                  )
     return fig
 
-#===============Função para plotar gráfico de barras no painel: Restaurantes================
+#==================Função para plotar gráfico de barras no painel: Países===================
 def costfortwo_countries(df):
     df_aux = (df.loc[:, ['country', 'average_cost_for_two']]
                  .groupby(['country'])
@@ -389,7 +389,7 @@ def online_delivery(df):
                  values='Has_Delivery_Perc', 
                  names='faz_ou_nao',
                  labels = {'faz_ou_nao': 'Faz entregas', 'Has_Delivery_Perc': 'Percentual'},
-                 title = 'Restaurantes que fazem entregas online'
+                 title = 'Restaurantes que fazem entregas on-line'
                  )
     fig.update_traces(textposition='outside', textinfo='percent+label')
     return fig

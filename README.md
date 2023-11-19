@@ -76,7 +76,7 @@ Os painéis construídos foram organizados da seguinte maneira:
     
 # *5. O produto final do porjeto*
 Um conjunto de painéis iterativos hospedados em cloud que está disponível para acesso de qualquer dispositivo com conexão à internet. 
-Para acessá-los basta clicar no link a seguir: https://dashzomato.streamlit.app/
+Para acessá-los basta clicar no link a seguir: https://papodeds-zomato-restaurant-project.streamlit.app/
 
 # *6. Conclusões*
 A partir da implementação dos painéis interativos o novo CEO terá uma maior gama de informações e métricas relevantes sobre o negócio para elaborar com assertividade a reestruturação do planejamento de negócio que poderá levar a *ZOMATO®* a um outro patamar, tornando-a líder global no segmento dos *marketplaces* que atendem a restaurantes.

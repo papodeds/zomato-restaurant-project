@@ -74,7 +74,7 @@ Os painéis construídos foram organizados da seguinte maneira:
 - A maior parte dos restaurantes cadastrados não fazem entregas on-line (64,7%) e não reservam mesas (93,9%).
 - As culinárias com maior número de avaliações e com maior média de avalição são: Continental, Européia, Barbecue, Indiana, Sushi e Cafeteria.
     
-# *5. O produto final do porjeto*
+# *5. O produto final do projeto*
 Um conjunto de painéis iterativos hospedados em cloud que está disponível para acesso de qualquer dispositivo com conexão à internet. 
 Para acessá-los basta clicar no link a seguir: https://papodeds-zomato-restaurant-project.streamlit.app/
 
